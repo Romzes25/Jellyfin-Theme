@@ -1,0 +1,17 @@
+/*Fonts */
+:root {
+    --rounding: 10px;
+    --card-rounding: 10px 10px 0px 0px;
+    --accent: #D90000 !important;
+    --accent-selected: #D90000 !important;
+    --accent-text: #D90000 !important;
+    --accent-icon: #D90000 !important;
+    --swiper-theme-color: #d90000 !important;
+}
+@import url("@import url(https://cdn.jsdelivr.net/gh/prayag17/Jellyfin-Icons/Outline.css");
+html {font-family:  'K2D',sans-serif ;  } body,h1,h2,h3 { font-family: 'K2D' ,sans-serif;}
+
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #d90000 #202020 !important;
+}
