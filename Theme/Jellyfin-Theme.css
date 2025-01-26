@@ -91,7 +91,7 @@ html {font-family:  'K2D',sans-serif ;  } body,h1,h2,h3 { font-family: 'K2D' ,sa
     background: #007700 !important;
 }
 .emby-input:focus, .emby-textarea:focus {
-    border-color: #d90000;
+    border-color: #00FF00;
 }
 .backgroundContainer,
 .dialog,
