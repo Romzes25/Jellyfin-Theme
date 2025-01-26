@@ -35,3 +35,35 @@ html {font-family:  'K2D',sans-serif ;  } body,h1,h2,h3 { font-family: 'K2D' ,sa
 .button-flat:hover {
 	color: #00FF00 !important;
 }
+
+  /*VideoPlayerUI*/
+  
+  .mdl-slider::-webkit-slider-thumb {
+    background: #d90000;
+    }
+    .layout-mobile #itemDetailPage .btnPlay,.layout-mobile #itemDetailPage .btnResume {
+    background: #d90000 !important;
+    flex-flow:row;
+    flex-shrink:0;
+    font-size:150%;
+    grid-gap:5%!important;
+    justify-content:flex-start;
+    padding:10px!important;
+    text-shadow:none;
+    width:100%!important
+    }
+    .mdl-slider-background-lower {
+    background-color: #d90000 !important
+    }
+    .mdl-slider::-moz-range-thumb {
+        -moz-appearance: none;
+        background: #d90000 !important;
+        background-image: none;
+        border: none;
+        border-radius: 50%;
+        box-sizing: border-box;
+        height: 1.08em;
+        -moz-transition: .2s;
+        transition: .2s;
+        width: 1.08em;
+    }
