@@ -39,7 +39,7 @@ html {font-family:  'K2D',sans-serif ;  } body,h1,h2,h3 { font-family: 'K2D' ,sa
   /*VideoPlayerUI*/
   
   .mdl-slider::-webkit-slider-thumb {
-    background: #d90000;
+    background: #00FF00;
     }
     .layout-mobile #itemDetailPage .btnPlay,.layout-mobile #itemDetailPage .btnResume {
     background: #d90000 !important;
@@ -88,7 +88,7 @@ html {font-family:  'K2D',sans-serif ;  } body,h1,h2,h3 { font-family: 'K2D' ,sa
 .raised {
     border-radius: 2vh;
     overflow: hidden;
-    background: D90000 !important;
+    background: #00FF00 !important;
 }
 .emby-input:focus, .emby-textarea:focus {
     border-color: #d90000;
