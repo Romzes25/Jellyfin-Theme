@@ -42,7 +42,7 @@ html {font-family:  'K2D',sans-serif ;  } body,h1,h2,h3 { font-family: 'K2D' ,sa
     background: #00FF00;
     }
     .layout-mobile #itemDetailPage .btnPlay,.layout-mobile #itemDetailPage .btnResume {
-    background: #d90000 !important;
+    background: #00FF00 !important;
     flex-flow:row;
     flex-shrink:0;
     font-size:150%;
