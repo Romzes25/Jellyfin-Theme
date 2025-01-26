@@ -18,20 +18,20 @@ html {font-family:  'K2D',sans-serif ;  } body,h1,h2,h3 { font-family: 'K2D' ,sa
 
 /*Spinner*/
 .mdl-spinner__layer-1 {
-    border-color: #d90000 !important;
+    border-color: #00B5FF !important;
 }
 .mdl-spinner__layer-2 {
-	border-color: #d90000 !important;
+	border-color: #00B5FF !important;
 }
 .mdl-spinner__layer-3 {
-	border-color: #d90000 !important;
+	border-color: #00B5FF !important;
 }
 .mdl-spinner__layer-4 {
-	border-color: #d90000 !important;
+	border-color: #00B5FF !important;
 }
 #indexPage .raised::before {
-	background: #d90000 !important;
+	background: #00B5FF !important;
 }
 .button-flat:hover {
-	color: #d90000 !important;
+	color: #00B5FF !important;
 }
