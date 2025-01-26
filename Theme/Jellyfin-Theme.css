@@ -86,7 +86,7 @@ html {font-family:  'K2D',sans-serif ;  } body,h1,h2,h3 { font-family: 'K2D' ,sa
     background-color: rgba(217, 0, 0, 1) !important;
 }
 .raised {
-    border-radius: 50vh;
+    border-radius: 3vh;
     overflow: hidden;
     background: D90000 !important;
 }
@@ -100,7 +100,7 @@ html {font-family:  'K2D',sans-serif ;  } body,h1,h2,h3 { font-family: 'K2D' ,sa
 .mainDrawer,
 .drawer-open,
 html {
-    background: rgb(107 107 107 / 10%) ;
+    background: rgb(25 25 25 / 90%) ;
 }
 
 .content-primary {
