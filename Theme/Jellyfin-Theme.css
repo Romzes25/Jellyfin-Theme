@@ -53,11 +53,11 @@ html {font-family:  'K2D',sans-serif ;  } body,h1,h2,h3 { font-family: 'K2D' ,sa
     width:100%!important
     }
     .mdl-slider-background-lower {
-    background-color: #d90000 !important
+    background-color: #00FF00 !important
     }
     .mdl-slider::-moz-range-thumb {
         -moz-appearance: none;
-        background: #d90000 !important;
+        background: #00FF00 !important;
         background-image: none;
         border: none;
         border-radius: 50%;
@@ -88,7 +88,7 @@ html {font-family:  'K2D',sans-serif ;  } body,h1,h2,h3 { font-family: 'K2D' ,sa
 .raised {
     border-radius: 2vh;
     overflow: hidden;
-    background: #00FF00 !important;
+    background: #007700 !important;
 }
 .emby-input:focus, .emby-textarea:focus {
     border-color: #d90000;
