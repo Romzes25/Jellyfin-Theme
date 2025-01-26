@@ -85,6 +85,7 @@ html {font-family:  'K2D',sans-serif ;  } body,h1,h2,h3 { font-family: 'K2D' ,sa
     color: #fff !important;
     background-color: rgba(217, 0, 0, 1) !important;
 }
+/*радиус и цвет кнопок*/
 .raised {
     border-radius: 2vh;
     overflow: hidden;
