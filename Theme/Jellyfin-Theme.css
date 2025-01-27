@@ -183,11 +183,3 @@ element {
     margin-right: 5px;
 }
 
-/*Исправление растягивания изображения*/
-
-img {
-    -o-object-fit: cover;
-    object-fit: cover;
-}
-
-
