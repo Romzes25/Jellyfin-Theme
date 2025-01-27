@@ -168,7 +168,7 @@ video:cue {
     background-color: #00FF00 !important;
 }
 .emby-checkbox:checked + span + .checkboxOutline {
-    border-color: #fff !important;
+    border-color: #000000 !important;
 }
 progress::-moz-progress-bar {
     background-color: #d90000 !important;
