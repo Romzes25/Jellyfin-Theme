@@ -16,7 +16,7 @@ html {font-family:  'K2D',sans-serif ;  } body,h1,h2,h3 { font-family: 'K2D' ,sa
     scrollbar-color: #d90000 #202020 !important;
 }
 
-/*Spinner*/
+/*Спинер загрузки*/
 .mdl-spinner__layer-1 {
     border-color: #00FF00 !important;
 }
@@ -36,7 +36,7 @@ html {font-family:  'K2D',sans-serif ;  } body,h1,h2,h3 { font-family: 'K2D' ,sa
 	color: #00FF00 !important;
 }
 
-  /*VideoPlayerUI*/
+  /*Пользовательский интерфейс видеоплеера*/
   
   .mdl-slider::-webkit-slider-thumb {
     background: #00FF00;
@@ -68,7 +68,7 @@ html {font-family:  'K2D',sans-serif ;  } body,h1,h2,h3 { font-family: 'K2D' ,sa
         width: 1.08em;
     }
 
-/*Mini My media*/
+/*Уменьшите мои медиа*/
 
 #indexPage .raised.emby-button:hover {
     background: rgb(0, 0, 0, .75) !important;
@@ -139,6 +139,55 @@ video::-webkit-media-text-track-display {
     font-family: "Raleway", sans-serif !important;
     font-weight: 700 !important;
     text-shadow: 0em 0em .2em rgba(0, 0, 0, 1) !important;
+}
+
+/*резервное копирование субтитров*/
+
+video::-webkit-media-text-track-container {
+    font-family: "Raleway", sans-serif !important;
+    font-weight: 700 !important;
+    text-shadow: 0em 0em .2em rgba(0, 0, 0, 1) !important;
+}
+
+video:cue {
+    font-family: "Raleway" !important;
+    font-weight: 700 !important;
+    text-shadow: 0em 0em .2em rgba(0, 0, 0, 1) !important;
+}
+
+/*Настройка радиуса границы*/
+.listItemIcon:not(.listItemIcon-transparent) {
+    background-color: #d90000 !important;
+    color: #fff;
+    padding: .5em;
+    border-radius: 100em;
+    margin: 0 .2em 0 .4em;
+}
+
+.emby-checkbox:checked + span + .checkboxOutline, .itemProgressBarForeground {
+    background-color: #d90000 !important;
+}
+.emby-checkbox:checked + span + .checkboxOutline {
+    border-color: #fff !important;
+}
+progress::-moz-progress-bar {
+    background-color: #d90000 !important;
+}
+::selection {
+    background: #d90000 !important;
+    text-shadow: none;
+}
+element {
+    color: #d90000 !important;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+/*Исправление растягивания изображения*/
+
+img {
+    -o-object-fit: cover;
+    object-fit: cover;
 }
 
 
