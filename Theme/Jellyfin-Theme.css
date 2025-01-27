@@ -165,7 +165,7 @@ video:cue {
 }
 
 .emby-checkbox:checked + span + .checkboxOutline, .itemProgressBarForeground {
-    background-color: #d90000 !important;
+    background-color: #00FF00 !important;
 }
 .emby-checkbox:checked + span + .checkboxOutline {
     border-color: #fff !important;
