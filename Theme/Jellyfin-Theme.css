@@ -183,10 +183,122 @@ element {
     margin-right: 5px;
 }
 
-/*Image streching fix*/
+/*Исправление растягивания изображения*/
 
 img {
     -o-object-fit: cover;
     object-fit: cover;
+}
+
+
+/*Закругленные углы практически на всем - Источник Монохромный*/
+
+.formDialogHeader {
+    border-top-left-radius: var(--rounding);
+    border-top-right-radius: var(--rounding);
+}
+
+.formDialogFooter {
+    border-bottom-left-radius: var(--rounding);
+    border-bottom-right-radius: var(--rounding);
+}
+
+.cardOverlayContainer {
+    border-radius: var(---card-rounding) !important;
+}
+
+.nowPlayingPageImage,
+.toast,
+.fab,
+.multiSelectCheckboxOutline,
+.itemSelectionPanel,
+.cardContent-button,
+.cardContent-shadow,
+.itemDetailImage,
+.cardOverlayButton-hover,
+.listItemImageButton,
+.listItemButton,
+.headerButton,
+.paper-icon-button-light,
+.dialog,
+.listItemIcon,
+.button-flat,
+.visualCardBox,
+.chapterThumbContainer,
+.cardOverlayButtonIcon,
+.subtitleappearance-preview.flex.align-items-center.justify-content-center {
+    border-radius: var(--rounding) !important;
+}
+
+.osdPoster img {
+    border-radius: var(--rounding);
+    border: none;
+}
+
+.mdl-slider::-moz-range-thumb {
+    border-radius: var(--rounding);
+}
+
+.mdl-slider::-ms-thumb {
+    border-radius: var(--rounding);
+}
+
+.mdl-slider::-webkit-slider-thumb {
+    border-radius: var(--rounding);
+}
+
+div[data-role="controlgroup"] a[data-role="button"]:first-child {
+    border-bottom-left-radius: var(--rounding);
+    border-top-left-radius: var(--rounding);
+}
+
+div[data-role="controlgroup"] a[data-role="button"]:last-child {
+    border-bottom-right-radius: var(--rounding);
+    border-top-right-radius: var(--rounding);
+}
+
+.detailImageContainer .cardBox {
+    overflow: hidden;
+    border-right: var(--rounding);
+}
+
+.emby-select,
+.emby-select-withcolor {
+    border-radius: 5px;
+}
+
+.cardContent-button,
+.cardContent-shadow,
+.itemDetailImage,
+.cardOverlayButton-hover,
+.cardImageContainer,
+.listItemImageButton,
+.listItemButton,
+.headerButton,
+.paper-icon-button-light,
+.cardOverlayButton,
+.dialog,
+a.listItem-border {
+    border-radius: var(--rounding);
+}
+
+.cardScalable,
+.cardImage,
+.visualCardBox .cardContent,
+.sessionNowPlayingInnerContent,
+.cardImageContainer,
+.blurhash-canvas,
+.cardPadder {
+    border-radius: var(--card-rounding);
+}
+
+.checkboxOutline {
+    border-radius: 5px !important;
+}
+
+.paperList {
+    border-radius: 20px !important;
+    overflow: hidden;
+    border: .01em solid #191819;
 }
 
